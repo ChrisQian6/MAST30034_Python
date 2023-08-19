@@ -3,7 +3,7 @@
 # Author: Cheng Qian
 # Student ID: 1266297
 
-#Run the following Jupyter Notebook with the order of the file name
+## Run the following Jupyter Notebook with the order of the file name
 1. Downloading data.ipynb 
 2. Preprocessing.ipynb
 3. Plot.ipynb
@@ -12,5 +12,5 @@
 6. LR_model.ipynb
 7. RF_model.ipynb
 
-#data file stores all dataset used in this project
-#plots file stores all the plots generated in this project
+## data file stores all dataset used in this project
+## plots file stores all the plots generated in this project
