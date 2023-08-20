@@ -197,7 +197,7 @@ The random forest classifier model is used for classification tasks and it is a 
 In this case, the tip amount is divided into two categories, low tips and high tips (less than or equal to \$3 is a low tip, otherwise a high tip). In the selected features, in addition to the three categories of airport, weekend, and congestion features used in the linear regression, two categories of pick-up and drop-off locations were added, for a total of five categorical features for the training data.
 
 \subsection{Results and Error Analysis}
-RMSE (Root Mean Squared Error), which is an indicator to evaluate the performance of linear regression, is adopted in this study. It measures the error between the model's predicted value and the actual observed value. After hyperparameter tuning and selecting the best-performing model, the \textbf{RMSE value is approximately 2.8563}, and \textbf{the R squared value $\approx$ 0.4779}. (An R-squared value of 0.4779 indicates that approximately 47.79\% of the variability in the dependent variable is explained by the linear regression model.) The overall modeling performance generally meets expectations.
+RMSE (Root Mean Squared Error), which is an indicator to evaluate the performance of linear regression, is adopted in this study. It measures the error between the model's predicted value and the actual observed value. After hyperparameter tuning and selecting the best-performing model, the \textbf{RMSE value is approximately 2.7983}, and \textbf{the R squared value $\approx$ 0.4741}. (An R-squared value of 0.4741 indicates that approximately 47.41\% of the variability in the dependent variable is explained by the linear regression model.) The overall modeling performance generally meets expectations.
 
 \begin{table}[ht]
 \centering
@@ -205,8 +205,8 @@ RMSE (Root Mean Squared Error), which is an indicator to evaluate the performanc
 \begin{array}{c|cc}
 & \text{Predicted High Tips} & \text{Predicted Low Tips} \\
 \hline
-\text{Actual High Tips} & 200643 & 1121587 \\
-\text{Actual Low Tips} & 111918 & 1591728 \\
+\text{Actual High Tips} & 205941 & 1116143 \\
+\text{Actual Low Tips} & 113656 & 1590587 \\
 \end{array}
 \]
 \caption{Confusion Matrix}
